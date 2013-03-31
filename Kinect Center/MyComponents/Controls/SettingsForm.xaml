@@ -1,0 +1,28 @@
+﻿<base:ContentForm x:Class="MyComponents.Controls.SettingsForm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:base="clr-namespace:MyComponents.Controls"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             mc:Ignorable="d" 
+             d:DesignHeight="705" d:DesignWidth="472">
+    <Grid>
+        <DockPanel Name="pnlSettings" Visibility="Visible" DockPanel.Dock="Right">
+            <Canvas DockPanel.Dock="Top" Height="90" Background="#FF5EABE0">
+                <Image Source="/MyComponents;component/Resources/Icons/Settings.png"></Image>
+                <Label Content="Settings" FontFamily="Segoe UI Light" FontSize="42"  Foreground="White" Margin="20,20,0,0" Canvas.Left="70" />
+            </Canvas>
+            <DockPanel Name="pnlComponents" Background="White">
+                <Canvas Width="1" Background="#FF4B4343" Margin="0,20,0,20" DockPanel.Dock="Left"/>
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Height="60" FlowDirection="RightToLeft">
+                    <Button Height="40" Padding="1" Width="98" Margin="5" Name="Close" Click="Close_Click">
+                        <TextBlock Name="txtCloseButton" FontSize="18" Foreground="White" Margin="0,0,0,0" Text="Close" />
+                    </Button>
+                </StackPanel>
+
+                <Canvas/>
+            </DockPanel>
+        </DockPanel>
+    </Grid>
+</base:ContentForm>

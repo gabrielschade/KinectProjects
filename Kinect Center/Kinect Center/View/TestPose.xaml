@@ -1,0 +1,45 @@
+﻿<controls:ContentForm x:Class="Kinect_Center.View.TestPose"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:k="http://schemas.microsoft.com/kinect/2013"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:controls="clr-namespace:MyComponents.Controls;assembly=MyComponents"
+             xmlns:kinectControls="clr-namespace:MyKinectComponents.Controls;assembly=MyKinectComponents"
+             xmlns:animation="clr-namespace:MyComponents.VisibilityAnimation;assembly=MyComponents"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             mc:Ignorable="d" 
+             d:DesignHeight="457" d:DesignWidth="874" Loaded="ContentForm_Loaded">
+    <ContentControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colours.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedSingleRowTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Purple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseDark.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </ContentControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="150" />
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="lbCurrentStatus" Content="Current Status: Not Started" FontFamily="Segoe UI Light" FontSize="42" Foreground="Black"></Label>
+        <Canvas x:Name="referenceSkeletonCanvas" Margin="0,5,20,20" Grid.Column="0" Background="Black" Grid.RowSpan="1" Grid.Row="1"/>
+        <Canvas x:Name="currentSkeletonCanvas" Margin="0,5,20,20" Grid.Column="0" Background="Transparent" Grid.RowSpan="1" Grid.Row="1"/>
+
+        <k:KinectRegion Grid.Column="1" x:Name="kinectRegion" Grid.RowSpan="2">
+            <kinectControls:KinectCommandsBar x:Name="commandsBar"/>
+        </k:KinectRegion>
+    </Grid>
+
+</controls:ContentForm>

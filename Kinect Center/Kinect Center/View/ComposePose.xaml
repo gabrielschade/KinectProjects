@@ -1,0 +1,144 @@
+﻿<controls:ContentForm x:Class="Kinect_Center.View.ComposePose"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:k="http://schemas.microsoft.com/kinect/2013"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:controls="clr-namespace:MyComponents.Controls;assembly=MyComponents"
+             xmlns:kinectControls="clr-namespace:MyKinectComponents.Controls;assembly=MyKinectComponents"
+             xmlns:animation="clr-namespace:MyComponents.VisibilityAnimation;assembly=MyComponents"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             mc:Ignorable="d" 
+             d:DesignHeight="457" d:DesignWidth="874" Loaded="ContentForm_Loaded">
+    <ContentControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colours.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedSingleRowTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Purple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseDark.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </ContentControl.Resources>
+    <k:KinectRegion x:Name="kinectRegion">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="150" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Canvas x:Name="currentSkeletonImage" Margin="10,15" Grid.Column="0" Background="Black" Grid.Row="1" Grid.RowSpan="1"/>
+            <Grid Grid.Column="1" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="65"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Content="SubPoses" FontFamily="Segoe UI Light" FontSize="38" Foreground="Black"></Label>
+                <k:KinectScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Hidden">
+                    <StackPanel x:Name="pnlSubPoses" Grid.Row="1" Height="300" Margin="0,-100,0,0">
+
+                    </StackPanel>
+                </k:KinectScrollViewer>
+            </Grid>
+
+            <k:KinectScrollViewer  Margin="0,0,20,0" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Disabled" BorderBrush="Black" k:KinectTileButton.Click="KinectTileButtonClick" Grid.ColumnSpan="2">
+                <StackPanel Width="3300" Margin="-100,0,0,0" Orientation="Horizontal">
+                    <k:KinectTileButton Tag="3" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Head" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="2" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Shoulder Center" FontFamily="Segoe UI Light" FontSize="34" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="1" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Spine" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="0" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Hip Center" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="8" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Right Shoulder" FontFamily="Segoe UI Light" FontSize="34" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="9" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Right Elbow" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="10" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Right Wrist" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="11" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Right Hand" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="16" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Right Hip" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="17" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Right Knee" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="18" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Right Ankle" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="19" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Right Foot" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="4" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Left Shoulder" FontFamily="Segoe UI Light" FontSize="34" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="5" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Left Elbow" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="6" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Left Wrist" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="7" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Left Hand" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="12" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Left Hip" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="13" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Left Knee" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="14" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Left Ankle" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+                    <k:KinectTileButton Tag="15" Style="{StaticResource JointTile}">
+                        <TextBlock Text="Left Foot" FontFamily="Segoe UI Light" FontSize="48" TextWrapping="WrapWithOverflow"></TextBlock>
+                    </k:KinectTileButton>
+
+
+                </StackPanel>
+            </k:KinectScrollViewer>
+
+            <k:KinectScrollViewer Grid.Column="2" Grid.RowSpan="2" VerticalScrollBarVisibility="Hidden" Background="#41B1E1" HoverBackground="Transparent">
+                <kinectControls:KinectCommandsBar x:Name="commandsBar" Margin="0,-100,0,0"/>
+            </k:KinectScrollViewer>
+        </Grid>
+
+    </k:KinectRegion>
+
+</controls:ContentForm>

@@ -1,0 +1,48 @@
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\Kinect Center.exe.config
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\Kinect Center.exe
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\Kinect Center.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\MahApps.Metro.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\MyComponents.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\MyLibrary.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\System.Windows.Interactivity.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\MyComponents.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\MyLibrary.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\Kinect Center.csprojResolveAssemblyReference.cache
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\App.g.cs
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\Kinect Center_MarkupCompile.cache
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\Kinect Center.g.resources
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\Kinect_Center.Properties.Resources.resources
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\Kinect Center.csproj.GenerateResource.Cache
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\Kinect Center.exe
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\Kinect Center.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\Home.baml
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\App.baml
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\Home.g.cs
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\ApplicationForm.baml
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\ApplicationForm.g.cs
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\Arkanoid.baml
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\Arkanoid.g.cs
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\KinectInteraction170_32.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\KinectInteraction170_64.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\Microsoft.Kinect.Toolkit.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\Microsoft.Kinect.Toolkit.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\Camera.baml
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\Camera.g.cs
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\ImageVisualizer.baml
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\ImageVisualizer.g.cs
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\MyKinectComponents.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\MyKinectComponents.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\RecordPose.baml
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\RecordPose.g.cs
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\MyKinectLibrary.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\bin\Debug\MyKinectLibrary.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\ComposePose.baml
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\ComposePose.g.cs
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\Kinect Center_MarkupCompile.lref
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\TestPose.baml
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\View\TestPose.g.cs

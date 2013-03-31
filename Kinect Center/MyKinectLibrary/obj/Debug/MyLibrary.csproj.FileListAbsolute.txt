@@ -1,0 +1,7 @@
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyLibrary\bin\Debug\MyLibrary.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyLibrary\bin\Debug\MyLibrary.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyLibrary\obj\Debug\MyLibrary.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyLibrary\obj\Debug\MyLibrary.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyLibrary\bin\Debug\MyLibrary.dll.CodeAnalysisLog.xml
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyLibrary\bin\Debug\MyLibrary.dll.lastcodeanalysissucceeded
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyLibrary\obj\Debug\MyLibrary.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyKinectLibrary\bin\Debug\MyKinectLibrary.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyKinectLibrary\bin\Debug\MyKinectLibrary.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyKinectLibrary\obj\Debug\MyKinectLibrary.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyKinectLibrary\obj\Debug\MyKinectLibrary.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyKinectLibrary\obj\Debug\MyKinectLibrary.csprojResolveAssemblyReference.cache
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyKinectLibrary\bin\Debug\MyLibrary.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyKinectLibrary\bin\Debug\MyLibrary.pdb

@@ -1,0 +1,4 @@
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyLibrary\bin\Debug\MyLibrary.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyLibrary\bin\Debug\MyLibrary.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyLibrary\obj\Debug\MyLibrary.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyLibrary\obj\Debug\MyLibrary.pdb

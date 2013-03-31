@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinect Center", "Kinect Center\Kinect Center.csproj", "{41B9D3B4-4D09-4F92-8802-7CE322FFD8A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyComponents", "MyComponents\MyComponents.csproj", "{CD01EA41-33AD-40B6-8612-ED84DBCBE7A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary", "MyLibrary\MyLibrary.csproj", "{3E022C28-D56C-4B20-A6BB-A023A5D1DCC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Kinect.Toolkit", "Microsoft.Kinect.Toolkit\Microsoft.Kinect.Toolkit.csproj", "{C6F9C31B-6130-4443-A5CC-EF0664552ECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Kinect.Toolkit.Controls", "Microsoft.Kinect.Toolkit.Controls\Microsoft.Kinect.Toolkit.Controls.csproj", "{4508C4D1-85BB-4F3F-9E3B-CC93D231C65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyKinectComponents", "MyKinectComponents\MyKinectComponents.csproj", "{9C696F6D-F1BF-4E60-AD6E-AE0F0464AB42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyKinectLibrary", "MyKinectLibrary\MyKinectLibrary.csproj", "{F7F17B7E-7B62-4BA3-BEA2-3BBF2C088605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41B9D3B4-4D09-4F92-8802-7CE322FFD8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B9D3B4-4D09-4F92-8802-7CE322FFD8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B9D3B4-4D09-4F92-8802-7CE322FFD8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B9D3B4-4D09-4F92-8802-7CE322FFD8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD01EA41-33AD-40B6-8612-ED84DBCBE7A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD01EA41-33AD-40B6-8612-ED84DBCBE7A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD01EA41-33AD-40B6-8612-ED84DBCBE7A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD01EA41-33AD-40B6-8612-ED84DBCBE7A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E022C28-D56C-4B20-A6BB-A023A5D1DCC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E022C28-D56C-4B20-A6BB-A023A5D1DCC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E022C28-D56C-4B20-A6BB-A023A5D1DCC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E022C28-D56C-4B20-A6BB-A023A5D1DCC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F9C31B-6130-4443-A5CC-EF0664552ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F9C31B-6130-4443-A5CC-EF0664552ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F9C31B-6130-4443-A5CC-EF0664552ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F9C31B-6130-4443-A5CC-EF0664552ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4508C4D1-85BB-4F3F-9E3B-CC93D231C65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4508C4D1-85BB-4F3F-9E3B-CC93D231C65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4508C4D1-85BB-4F3F-9E3B-CC93D231C65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4508C4D1-85BB-4F3F-9E3B-CC93D231C65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C696F6D-F1BF-4E60-AD6E-AE0F0464AB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C696F6D-F1BF-4E60-AD6E-AE0F0464AB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C696F6D-F1BF-4E60-AD6E-AE0F0464AB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C696F6D-F1BF-4E60-AD6E-AE0F0464AB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F17B7E-7B62-4BA3-BEA2-3BBF2C088605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F17B7E-7B62-4BA3-BEA2-3BBF2C088605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F17B7E-7B62-4BA3-BEA2-3BBF2C088605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F17B7E-7B62-4BA3-BEA2-3BBF2C088605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

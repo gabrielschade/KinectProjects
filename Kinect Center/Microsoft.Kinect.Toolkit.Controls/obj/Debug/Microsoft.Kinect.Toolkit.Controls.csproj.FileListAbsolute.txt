@@ -1,0 +1,36 @@
+C:\Users\Gabriel\Documents\InteractionGallery-WPF\.Debug\KinectInteraction170_32.dll
+C:\Users\Gabriel\Documents\InteractionGallery-WPF\.Debug\KinectInteraction170_64.dll
+C:\Users\Gabriel\Documents\InteractionGallery-WPF\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Gabriel\Documents\InteractionGallery-WPF\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Gabriel\Documents\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Documents\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Gabriel\Documents\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Users\Gabriel\Documents\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Users\Gabriel\Documents\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+C:\Users\Gabriel\Documents\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Users\Gabriel\Documents\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Gabriel\Documents\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Gabriel\Documents\Visual Studio 2012\Kinect SDK 1.7\ControlsBasics-WPF\.Debug\KinectInteraction170_32.dll
+C:\Users\Gabriel\Documents\Visual Studio 2012\Kinect SDK 1.7\ControlsBasics-WPF\.Debug\KinectInteraction170_64.dll
+C:\Users\Gabriel\Documents\Visual Studio 2012\Kinect SDK 1.7\ControlsBasics-WPF\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Gabriel\Documents\Visual Studio 2012\Kinect SDK 1.7\ControlsBasics-WPF\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Gabriel\Documents\Visual Studio 2012\Kinect SDK 1.7\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Documents\Visual Studio 2012\Kinect SDK 1.7\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Gabriel\Documents\Visual Studio 2012\Kinect SDK 1.7\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Users\Gabriel\Documents\Visual Studio 2012\Kinect SDK 1.7\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Users\Gabriel\Documents\Visual Studio 2012\Kinect SDK 1.7\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+C:\Users\Gabriel\Documents\Visual Studio 2012\Kinect SDK 1.7\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Users\Gabriel\Documents\Visual Studio 2012\Kinect SDK 1.7\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Gabriel\Documents\Visual Studio 2012\Kinect SDK 1.7\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\.Debug\KinectInteraction170_32.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\.Debug\KinectInteraction170_64.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
