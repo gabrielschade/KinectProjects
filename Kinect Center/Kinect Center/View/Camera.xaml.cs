@@ -140,7 +140,6 @@ namespace Kinect_Center.View
             KinectTileButton button = sender as KinectTileButton;
             Image image = button.Tag as Image;
             ImageVisualizer imageVisualizer = new ImageVisualizer(image.Source);
-            imageVisualizer.WindowState = WindowState.Maximized;
             imageVisualizer.ShowDialog();
         }
 

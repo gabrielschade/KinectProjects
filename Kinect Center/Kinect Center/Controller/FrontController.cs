@@ -32,7 +32,7 @@ namespace Kinect_Center.Controller
 
         #region [Propriedades]
 
-        public PoseDataContext CurrentPoseDataContext 
+        public PoseDataContext CurrentPoseDataContext
         { get; set; }
 
         public FormControllerBase CurrentController
@@ -107,7 +107,7 @@ namespace Kinect_Center.Controller
             }
         }
 
-        public void BackToHome(double confidenceLevel=1)
+        public void BackToHome(double confidenceLevel = 1)
         {
             if (confidenceLevel > 0.8)
             {
@@ -151,15 +151,19 @@ namespace Kinect_Center.Controller
 
         private void SetCurrentController(ref FormControllerBase currentController, FormControllerBase newController)
         {
-            if (currentController != null)
+            if (_kinectSensorManager.Kinect != null)
             {
-                DisposeController(ref currentController);
-            }
+                if (currentController != null)
+                {
+                    DisposeController(ref currentController);
+                }
 
-            InitializeController(ref currentController, newController);
+                InitializeController(ref currentController, newController);
+            }
+            OpenControllerForm(newController);
         }
 
-        private FormControllerBase InitializeController(ref FormControllerBase currentController, FormControllerBase newController)
+        private void InitializeController(ref FormControllerBase currentController, FormControllerBase newController)
         {
             currentController = newController;
 
@@ -174,12 +178,15 @@ namespace Kinect_Center.Controller
                 this.SpeechBarStatusChanged += speechBarController.OnSpeechBarStatusChanged;
             }
 
+            OpenControllerForm(newController);
+        }
+
+        private void OpenControllerForm(FormControllerBase newController)
+        {
             if (_backEffect)
                 this.BackToForm(newController.Form);
             else
                 this.OpenForm(newController.Form);
-
-            return currentController;
         }
 
         private void DisposeController(ref FormControllerBase currentController)

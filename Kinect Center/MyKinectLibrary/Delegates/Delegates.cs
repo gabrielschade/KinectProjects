@@ -8,5 +8,12 @@ using System.Threading.Tasks;
 
 namespace MyKinectLibrary.Delegates
 {
-    public delegate void PoseStatusChanged(Pose pose, PoseEventStatus status);
+    
+    public delegate void PoseStatusChangedEventHandler(Pose pose, PoseEventStatus status);
+
+    public delegate void PoseRecognizedEventHandler(Pose pose);
+
+    public delegate void PoseInProgressEventHandler(Pose pose);
+
+    public delegate void PoseInterruptedEventHandler(Pose pose);
 }

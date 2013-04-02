@@ -14,7 +14,6 @@ namespace Kinect_Center.Controller
 {
     public class HomeController : FormControllerBase, ISpeechBarController
     {
-
         #region [Construtores]
 
         public HomeController()
@@ -104,7 +103,19 @@ namespace Kinect_Center.Controller
             view.btnDepthCam.Click += btnDepthCam_Click;
             view.btnRecordPose.Click += btnRecordPose_Click;
         }
-       
+
+        private void TryOpen<T>() where T : FormControllerBase
+        {
+            if (HasKinectSensor())
+                OpenController<T>();
+            else
+                UIFunctions.UIFunctionsManager.ShowAlert("Kinect Sensor Required", "Kinect sensor is required for this operation.");
+        }
+
+        private bool HasKinectSensor()
+        {
+            return FrontController.Instance.KinectSensorManager.Kinect != null;
+        }
 
         #endregion [Métodos Privados]
 
@@ -112,40 +123,43 @@ namespace Kinect_Center.Controller
 
         private void btnArkanoid_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            OpenController<ArkanoidController>();
+            TryOpen<ArkanoidController>();
         }
 
         private void btnInstantCam_Click(object sender, RoutedEventArgs e)
         {
-            OpenController<InstantCamController>();
+            TryOpen<InstantCamController>();
         }
 
         private void btnSpeech_Click(object sender, RoutedEventArgs e)
         {
-            if (FrontController.Instance.SpeechBar.Visibility == Visibility.Visible)
-                FrontController.Instance.HideSpeechBar();
+            if (HasKinectSensor())
+                if (FrontController.Instance.SpeechBar.Visibility == Visibility.Visible)
+                    FrontController.Instance.HideSpeechBar();
+                else
+                    FrontController.Instance.ShowSpeechBar();
             else
-                FrontController.Instance.ShowSpeechBar();
+                UIFunctions.UIFunctionsManager.ShowAlert("Kinect Sensor Required", "Kinect sensor is required for this operation.");
         }
 
         private void btnInfraRedCam_Click(object sender, RoutedEventArgs e)
         {
-            OpenController<InfraRedCamController>();
+            TryOpen<InfraRedCamController>();
         }
 
         private void btnDepthCam_Click(object sender, RoutedEventArgs e)
         {
-            OpenController<DepthCamController>();
+            TryOpen<DepthCamController>();
         }
 
         private void btnRecordPose_Click(object sender, RoutedEventArgs e)
         {
-            OpenController<RecordPoseController>();
+            TryOpen<RecordPoseController>();
         }
 
         #endregion [Métodos vinculados a eventos]
 
 
-        
+
     }
 }

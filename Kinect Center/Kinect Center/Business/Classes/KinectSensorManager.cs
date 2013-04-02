@@ -1,4 +1,5 @@
 ﻿using Kinect_Center.Business.Delegates;
+using Kinect_Center.Controller;
 using Microsoft.Kinect;
 using Microsoft.Kinect.Toolkit;
 using Microsoft.Speech.AudioFormat;
@@ -193,6 +194,13 @@ namespace Kinect_Center.Business.Classes
                 catch (InvalidOperationException)
                 {
                     // Captura exceção caso o KinectSensor entre em um estado inválido durante a desabilitação das streams.
+                }
+                finally
+                {
+                    if (! (FrontController.Instance.CurrentController is HomeController) )
+                    {
+                        FrontController.Instance.ChangeCurrentController<HomeController>(true);
+                    }
                 }
             }
 

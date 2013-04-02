@@ -27,7 +27,25 @@ namespace MyKinectLibrary.PoseTracking
 
         #region [Eventos]
 
-        public event PoseStatusChanged PoseStatusChanged;
+        /// <summary>
+        /// Evento disparado sempre que uma pose altera o status
+        /// </summary>
+        public event PoseStatusChangedEventHandler PoseStatusChanged;
+
+        /// <summary>
+        /// Evento disparado quando uma pose recebe o estado "recognized"
+        /// </summary>
+        public event PoseRecognizedEventHandler PoseRecognized;
+
+        /// <summary>
+        /// Evento disparado quando uma pose recebe o estado "in_progress"
+        /// </summary>
+        public event PoseInProgressEventHandler PoseInProgress;
+
+        /// <summary>
+        /// Evento disparado quando uma pose recebe o estado "interrupted"
+        /// </summary>
+        public event PoseInterruptedEventHandler PoseInterrupted;
 
         #endregion [Eventos]
 
@@ -62,7 +80,7 @@ namespace MyKinectLibrary.PoseTracking
         {
             if (userSkeleton == null)
             {
-                CallPoseEvent(null, PoseEventStatus.interrupted);
+                CallPoseEvents(null, PoseEventStatus.interrupted);
                 return;
             }
 
@@ -92,7 +110,7 @@ namespace MyKinectLibrary.PoseTracking
                     {
                         RestartHypotheticalPoseTracking(hypotheticalPose);
                         checkAllPoses = true;
-                        CallPoseEvent(hypotheticalPose, PoseEventStatus.interrupted);
+                        CallPoseEvents(hypotheticalPose, PoseEventStatus.interrupted);
                     }
                 }
             }
@@ -105,7 +123,7 @@ namespace MyKinectLibrary.PoseTracking
                 {
                     Pose poseToStart = startingPoses.First();
                     poseToStart.Status = PoseStatus.in_progress;
-                    CallPoseEvent(poseToStart, PoseEventStatus.in_progress);
+                    CallPoseEvents(poseToStart, PoseEventStatus.in_progress);
                     TestPoseInProgress(poseToStart);
                 }
 
@@ -126,7 +144,7 @@ namespace MyKinectLibrary.PoseTracking
         {
             hypotheticalPose.CurrentFrame = 0;
             hypotheticalPose.Status = PoseStatus.not_started;
-            CallPoseEvent(hypotheticalPose, PoseEventStatus.interrupted);
+            CallPoseEvents(hypotheticalPose, PoseEventStatus.interrupted);
         }
 
         /// <summary>
@@ -139,7 +157,7 @@ namespace MyKinectLibrary.PoseTracking
             if (hypotheticalPose.WaitingTime == hypotheticalPose.CurrentFrame)
             {
                 hypotheticalPose.Status = PoseStatus.accepted;
-                CallPoseEvent(hypotheticalPose, PoseEventStatus.recognized);
+                CallPoseEvents(hypotheticalPose, PoseEventStatus.recognized);
             }
         }
 
@@ -148,10 +166,26 @@ namespace MyKinectLibrary.PoseTracking
         /// </summary>
         /// <param name="pose">Pose que teve o estado alterado</param>
         /// <param name="status">Estado da pose</param>
-        private void CallPoseEvent(Pose pose, PoseEventStatus status)
+        private void CallPoseEvents(Pose pose, PoseEventStatus status)
         {
             if (PoseStatusChanged != null)
                 PoseStatusChanged(pose, status);
+
+            switch (status)
+            {
+                case PoseEventStatus.recognized:
+                    if (PoseRecognized != null)
+                        PoseRecognized(pose);
+                    break;
+                case PoseEventStatus.interrupted:
+                    if (PoseInterrupted != null)
+                        PoseInterrupted(pose);
+                    break;
+                case PoseEventStatus.in_progress:
+                    if (PoseInProgress != null)
+                        PoseInProgress(pose);
+                    break;
+            }
         }
 
         /// <summary>

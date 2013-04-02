@@ -16,5 +16,5 @@ DEBUG;TRACE
 16-143690575
 Controls\HandTracker.xaml;Controls\SettingsForm.xaml;Controls\SpeechBar.xaml;Forms\DialogForm.xaml;NavigationPanel\NavigationPanel.xaml;
 
-True
+False
 
