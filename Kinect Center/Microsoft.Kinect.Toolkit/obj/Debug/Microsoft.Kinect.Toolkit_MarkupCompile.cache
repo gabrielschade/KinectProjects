@@ -4,7 +4,7 @@
 library
 C#
 .cs
-D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.Toolkit\obj\Debug\
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\Microsoft.Kinect.Toolkit\obj\Debug\
 Microsoft.Kinect.Toolkit
 none
 false
@@ -13,7 +13,7 @@ CODE_ANALYSIS;DEBUG;TRACE
 1-1341555513
 
 11-820572465
-91337243219
+91065153925
 KinectSensorChooserUI.xaml;
 
 False

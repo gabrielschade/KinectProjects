@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\obj\Debug\
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\Kinect Center\obj\Debug\
 Kinect_Center
 none
 false
 DEBUG;TRACE
-D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Kinect Center\App.xaml
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\Kinect Center\App.xaml
 81106124360
 
 37-1413092393
-23-1121077208
+23-398164991
 View\ComposePose.xaml;View\TestPose.xaml;View\ImageVisualizer.xaml;View\Arkanoid.xaml;View\Home.xaml;ApplicationForm.xaml;View\Camera.xaml;View\RecordPose.xaml;
 
-False
+True
 

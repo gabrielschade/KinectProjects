@@ -178,7 +178,7 @@ namespace Microsoft.Kinect.Toolkit.Controls
         private void TimerOnTick(object sender, EventArgs eventArgs)
         {
             const double MinSpeed = 30.0;
-            this.SlowEnoughForSelection = (this.currentSpeed.X <= MinSpeed) & (this.currentSpeed.Y <= MinSpeed);
+            this.SlowEnoughForSelection = (this.currentSpeed.X <= MinSpeed) && (this.currentSpeed.Y <= MinSpeed);
 
             if (this.scrollViewer == null)
             {
@@ -264,7 +264,7 @@ namespace Microsoft.Kinect.Toolkit.Controls
                 this.scrollViewer.ScrollToVerticalOffset(newOffset.Y);
             }
 
-            if ((this.currentSpeed.X < MinSpeed) & (this.currentSpeed.Y < MinSpeed))
+            if ((this.currentSpeed.X < MinSpeed) && (this.currentSpeed.Y < MinSpeed))
             {
                 this.Stop();
             }

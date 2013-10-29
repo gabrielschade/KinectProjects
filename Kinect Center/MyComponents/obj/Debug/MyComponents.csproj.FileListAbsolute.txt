@@ -23,3 +23,28 @@ D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyComponents\obj\D
 D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyComponents\obj\Debug\Controls\SettingsForm.baml
 D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyComponents\obj\Debug\Controls\HandTracker.baml
 D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyComponents\obj\Debug\Controls\HandTracker.g.cs
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\bin\Debug\MyComponents.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\bin\Debug\MyComponents.pdb
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\bin\Debug\MahApps.Metro.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\bin\Debug\MyLibrary.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\bin\Debug\MyLibrary.pdb
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\MyComponents.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\Controls\HandTracker.baml
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\Controls\HandTracker.g.cs
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\Controls\SettingsForm.g.cs
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\Controls\SpeechBar.g.cs
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\Forms\DialogForm.g.cs
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\NavigationPanel\NavigationPanel.g.cs
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\MyComponents_MarkupCompile.cache
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\MyComponents_MarkupCompile.lref
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\Controls\SettingsForm.baml
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\Controls\SpeechBar.baml
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\Forms\DialogForm.baml
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\NavigationPanel\NavigationPanel.baml
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\MyComponents.g.resources
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\MyComponents.Properties.Resources.resources
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\MyComponents.csproj.GenerateResource.Cache
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\MyComponents.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyComponents\obj\Debug\MyComponents.pdb

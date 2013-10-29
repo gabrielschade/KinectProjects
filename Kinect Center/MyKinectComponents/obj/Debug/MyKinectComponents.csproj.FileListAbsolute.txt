@@ -22,3 +22,27 @@ D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyKinectComponents
 D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyKinectComponents\obj\Debug\Controls\KinectCommandsBar.baml
 D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyKinectComponents\obj\Debug\Controls\MyKinectRegion.baml
 D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\MyKinectComponents\obj\Debug\Controls\MyKinectRegion.g.cs
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\KinectInteraction180_32.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\KinectInteraction180_64.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\MyKinectComponents.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\MyKinectComponents.pdb
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\MahApps.Metro.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\MyComponents.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\MyLibrary.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\MyComponents.pdb
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\bin\Debug\MyLibrary.pdb
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\obj\Debug\MyKinectComponents.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\obj\Debug\Controls\MyKinectRegion.baml
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\obj\Debug\Controls\KinectCommandsBar.baml
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\obj\Debug\Controls\MyKinectRegion.g.cs
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\obj\Debug\Controls\KinectCommandsBar.g.cs
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\obj\Debug\MyKinectComponents_MarkupCompile.cache
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\obj\Debug\MyKinectComponents.g.resources
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\obj\Debug\MyKinectComponents.Properties.Resources.resources
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\obj\Debug\MyKinectComponents.csproj.GenerateResource.Cache
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\obj\Debug\MyKinectComponents.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\MyKinectComponents\obj\Debug\MyKinectComponents.pdb

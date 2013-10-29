@@ -34,3 +34,15 @@ D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.T
 D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
 D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
 D:\Dados\Documentos\Visual Studio 2012\Projects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\.Debug\KinectInteraction180_32.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\.Debug\KinectInteraction180_64.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Gabriel\Documents\GitHub\KinectProjects\Kinect Center\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb

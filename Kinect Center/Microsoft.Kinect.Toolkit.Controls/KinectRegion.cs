@@ -44,12 +44,6 @@ namespace Microsoft.Kinect.Toolkit.Controls
     [SuppressMessage("Microsoft.Design", "CA1001:TypesThatOwnDisposableFieldsShouldBeDisposable", Justification = "Disposable interaction stream is disposed when sensor is set to null")]
     public class KinectRegion : ContentControl
     {
-        public InteractionStream InteractionStream
-        {
-            get { return this.interactionStream; }
-            set { this.interactionStream = value; }
-        }
-
         public static readonly RoutedEvent HandPointerMoveEvent = EventManager.RegisterRoutedEvent(
             "HandPointerMove", RoutingStrategy.Bubble, typeof(EventHandler<HandPointerEventArgs>), typeof(KinectRegion));
 
@@ -127,9 +121,9 @@ namespace Microsoft.Kinect.Toolkit.Controls
         public static readonly DependencyProperty PrimaryUserTrackingIdProperty;
 
         private static readonly DependencyPropertyKey PrimaryUserTrackingIdPropertyKey = DependencyProperty.RegisterReadOnly(
-            "PrimaryUserTrackingId",
-            typeof(int),
-            typeof(KinectRegion),
+            "PrimaryUserTrackingId", 
+            typeof(int), 
+            typeof(KinectRegion), 
             new PropertyMetadata(
                 KinectPrimaryUserTracker.InvalidUserTrackingId,
                 (o, args) => ((KinectRegion)o).OnPrimaryUserTrackingIdChanged((int)args.OldValue, (int)args.NewValue)));
@@ -778,7 +772,7 @@ namespace Microsoft.Kinect.Toolkit.Controls
                 search = VisualTreeHelper.GetParent(search);
             }
         }
-
+        
         /// <summary>
         /// Invokes the PrimaryUserTrackingIdChanged event to signal that the primary user has changed
         /// </summary>

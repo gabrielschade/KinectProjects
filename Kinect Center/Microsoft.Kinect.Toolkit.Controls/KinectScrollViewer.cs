@@ -184,7 +184,7 @@ namespace Microsoft.Kinect.Toolkit.Controls
             base.OnScrollChanged(e);
             this.scrollMoveTimer.Stop();
 
-            if (null == this.capturedHandPointer & AnimationState.None == this.scrollViewerInertiaScroller.AnimationState)
+            if (null == this.capturedHandPointer && AnimationState.None == this.scrollViewerInertiaScroller.AnimationState)
             {
                 // Scrolling other than grip
                 this.SetScrollBarVisualState("MouseScrolling");
